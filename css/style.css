@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ @font-face {
+    font-family: "IRANSansWeb";
+    src: local(IRANSansWeb Thin), url("../fonts/sans-woff/IRANSansWeb_UltraLight.woff") format("woff");
+    font-weight: 100;
+ }
+
+ @font-face {
+    font-family: "IRANSansWeb";
+    src: local(IRANSansWeb Light), url("../fonts/sans-woff/IRANSansWeb_Light.woff") format("woff");
+    font-weight: 300;
+ }
+
+ @font-face {
+    font-family: "IRANSansWeb";
+    src: local(IRANSansWeb Regular), url("../fonts/sans-woff/IRANSansWeb.woff") format("woff");
+    font-weight: 400;
+ }
+
+ @font-face {
+    font-family: "IRANSansWeb";
+    src: local(IRANSansWeb Medium), url("../fonts/sans-woff/IRANSansWeb_Medium.woff") format("woff");
+    font-weight: 500;
+ }
+
+ @font-face {
+    font-family: "IRANSansWeb";
+    src: local(IRANSansWeb Bold), url("../fonts/sans-woff/IRANSansWeb_Bold.woff") format("woff");
+    font-weight: 700;
+ }
+
+ html {
+    font-family: "IRANSansWeb", sans-serif;
+ }
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.ingr-fst-group-posts {
+   margin-top: 10px !important;
+}
+
+.ingr-margin-b-0 {
+   /* margin: 0px !important; */
+}
+
+.ingr-fst-group-posts .row, .card-image, .card-content, .card-action {
+   margin: 0px !important;
+}
+
+.ingr-fst-group-posts .card-content, .ingr-fst-group-posts .card-reveal {
+   font-size:9pt;
+   padding: 7px !important;
+}
+
+#id-ingr-searchbox {
+   border-top: solid 1px black;
+   border-bottom: solid 1px black;
+}
+
+#id-ingr-fixed-btn {
+   bottom: auto !important;
+   top: 14px;
+}
+
+/* Ingrastam hover shift - start */
+.ingr-hover-shift{
+   position:relative;
+   z-index: 1;
+}
+.ingr-hover-shift, .ingr-hover-shift:after, .ingr-hover-shift:before{
+   transition: all .5s;
+}
+.ingr-hover-shift:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 1px;
+  content: '.';
+  color: transparent;
+  background: #616161;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+.ingr-hover-shift:hover:after {
+  opacity: 0.1;
+  visibility: visible;
+  height: 100%;
+}
+/* Ingrastam hover shift - end */
