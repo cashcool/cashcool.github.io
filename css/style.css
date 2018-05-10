@@ -10,36 +10,44 @@
     font-family: "IRANSansWeb";
     src: local(IRANSansWeb Thin), url("../fonts/sans-woff/IRANSansWeb_UltraLight.woff") format("woff");
     font-weight: 100;
- }
+}
 
- @font-face {
-    font-family: "IRANSansWeb";
-    src: local(IRANSansWeb Light), url("../fonts/sans-woff/IRANSansWeb_Light.woff") format("woff");
-    font-weight: 300;
- }
+@font-face {
+   font-family: "IRANSansWeb";
+   src: local(IRANSansWeb Light), url("../fonts/sans-woff/IRANSansWeb_Light.woff") format("woff");
+   font-weight: 300;
+}
 
- @font-face {
-    font-family: "IRANSansWeb";
-    src: local(IRANSansWeb Regular), url("../fonts/sans-woff/IRANSansWeb.woff") format("woff");
-    font-weight: 400;
- }
+@font-face {
+   font-family: "IRANSansWeb";
+   src: local(IRANSansWeb Regular), url("../fonts/sans-woff/IRANSansWeb.woff") format("woff");
+   font-weight: 400;
+}
 
- @font-face {
-    font-family: "IRANSansWeb";
-    src: local(IRANSansWeb Medium), url("../fonts/sans-woff/IRANSansWeb_Medium.woff") format("woff");
-    font-weight: 500;
- }
+@font-face {
+   font-family: "IRANSansWeb";
+   src: local(IRANSansWeb Medium), url("../fonts/sans-woff/IRANSansWeb_Medium.woff") format("woff");
+   font-weight: 500;
+}
 
- @font-face {
-    font-family: "IRANSansWeb";
-    src: local(IRANSansWeb Bold), url("../fonts/sans-woff/IRANSansWeb_Bold.woff") format("woff");
-    font-weight: 700;
- }
+@font-face {
+   font-family: "IRANSansWeb";
+   src: local(IRANSansWeb Bold), url("../fonts/sans-woff/IRANSansWeb_Bold.woff") format("woff");
+   font-weight: 700;
+}
 
- html {
-    font-family: "IRANSansWeb", sans-serif;
- }
+html {
+   font-family: "IRANSansWeb", sans-serif;
+}
 
+h3 {
+   font-size: 17pt;
+   font-weight: 900;
+}
+
+p {
+   margin: 0;
+}
 
 .icon-block {
   padding: 0 15px;
