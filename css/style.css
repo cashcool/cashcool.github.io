@@ -43,6 +43,7 @@ html {
 h3 {
    font-size: 17pt;
    font-weight: 900;
+   line-height: inherit;
 }
 
 p {
@@ -71,6 +72,11 @@ p {
 .ingr-fst-group-posts .card-content, .ingr-fst-group-posts .card-reveal {
    font-size:9pt;
    /*padding: 7px !important;*/
+}
+
+.ingr-inline-icon-valign {
+   display: inline-flex;
+   vertical-align: middle;
 }
 
 #id-ingr-searchbox {

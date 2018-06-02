@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg13"
+   version="1.1"
+   viewBox="0 0 24 24"
+   height="24px"
+   width="24px">
+  <metadata
+     id="metadata17">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>platform-windows</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">platform-windows</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <defs
+     id="defs6" />
+  <g
+     id="uProxy-download-desktop"
+     transform="translate(-277,-707)"
+     style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1">
+    <g
+       style="fill:#000000"
+       id="platform-windows"
+       transform="translate(277,707)">
+      <rect
+         id="Rectangle-5"
+         x="0"
+         y="0"
+         width="24"
+         height="24"
+         style="fill-opacity:0;fill:#000000" />
+      <path
+         style="fill:#000000"
+         d="M 11.478261,1.9276438 C 15.623996,1.2267135 19.85432,0.61332828 24,0 V 0.17526105 11.390659 c -4.14568,0 -8.376004,0.0876 -12.521739,0.0876 z M 0,3.3913122 C 3.4472115,2.8695699 6.8944229,2.4347659 10.434783,2.0869565 v 9.3043665 c -3.5403601,0 -6.9875715,0.08694 -10.434783,0.08694 z m 0,9.1304268 c 3.4472115,0 6.8944229,0.08694 10.434783,0 v 9.391304 C 6.8944229,21.478293 3.4472115,21.043487 0,20.60868 Z m 11.478261,0 H 24 V 23.470285 24 C 19.85432,23.293675 15.623996,22.763903 11.478261,22.145855 Z"
+         id="Combined-Shape-Copy-4" />
+    </g>
+  </g>
+</svg>
